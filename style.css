@@ -1,0 +1,174 @@
+body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-color: darkcyan;
+      color: white;
+      overflow-y: hidden;
+}
+
+/* 
+.animated__text {
+      font-size: 3rem;
+      font-weight: 800;
+}
+
+.animated__text span {
+      position: relative;
+}
+
+.animated__text span::before {
+      content: "Designer";
+      color: orangered;
+      animation: words 20s infinite;
+}
+
+.animated__text span::after {
+      content: "";
+      position: absolute;
+      width: calc(100% + 8px);
+      height: 100%;
+      background-color: darkcyan;
+      border-left: 2px solid orangered;
+      right: -8px;
+      animation: cursor .8s infinite, typing 20s steps(14) infinite
+}
+
+@keyframes cursor {
+      to {
+            border-left: 2px solid darkcyan;
+      }
+}
+
+@keyframes words {
+
+      0%,
+      20% {
+            content: "Youtuber";
+      }
+
+      21%,
+      40% {
+            content: "Bloger";
+      }
+
+      41%,
+      60% {
+            content: "Singer";
+      }
+
+      61%,
+      80% {
+            content: "Expert";
+      }
+
+      81%,
+      100% {
+            content: "Gamer";
+      }
+}
+
+@keyframes typing {
+
+      10%,
+      15%,
+      30%,
+      35%,
+      50%,
+      55%,
+      70%,
+      75%,
+      90%,
+      95% {
+            width: 0;
+      }
+
+      5%,
+      20%,
+      25%,
+      40%,
+      45%,
+      60%,
+      65%,
+      80%,
+      85% {
+            width: calc(100% + 8px);
+
+      }
+} */
+ .animated__text{
+      font-size: 5rem;
+      font-weight: 800;
+}
+.animated__text span::before{
+      content: "Designer";
+      color: orange;
+      animation: words 20s infinite;
+}
+.animated__text span{
+      position: relative;
+
+}
+.animated__text span::after{
+      content: "";
+      position: absolute;
+      width: calc(100% + 8px);
+      height: 100%;
+      background-color: darkcyan;
+      border-left: 2px solid orange;
+      right: -8px;
+      animation: cursor .8s infinite , typing 20s steps(14) infinite;
+}
+@keyframes cursor {
+      to{
+      border-left: 2px solid orange;
+
+      }
+}
+
+@keyframes words {
+      0%,20%{
+            content: "Develper";
+      }
+      21%,40%{
+            content: "Designer";
+      }
+      41%,60%{
+            content: "Youtube";
+      }
+      61%,80%{
+            content: "Gamer";
+      }
+      81%,100%{
+            content: "Gamer";
+      }
+}
+
+@keyframes typing {
+      10%,
+      15%,
+      30%,
+      35%,
+      50%,
+      55%,
+      70%,
+      75%,
+      90%,
+      95%{
+            width: 0;
+      }
+      5%,
+      20%,
+      25%,
+      40%,
+      45%,
+      60%,
+      65%,
+      80%,
+      85%
+       {
+            width: calc(100% + 8px);
+      }
+} 
+
